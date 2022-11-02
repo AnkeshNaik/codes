@@ -1,0 +1,20 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+
+
+int main() {
+	// your code goes here
+	int T;
+	double X,Y,Z;
+	cin>>T;
+	while(T--){
+	    cin>>X>>Y>>Z;
+	    
+	    int temp =ceil(Y/Z);
+	   int ans = temp*X;
+	   cout<<ans<<endl;
+	    
+	}
+	return 0;
+}
